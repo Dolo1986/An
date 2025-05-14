@@ -2,7 +2,7 @@
 const UPoLPrefix = [
   'edu',
   'ai',
-  'Megan',
+  'Dori',
   'bot',
   'ask'
 ]; 
@@ -28,7 +28,7 @@ const UPoLPrefix = [
       
      const upol = event.body.substring(ahprefix.length).trim();
    if (!upol) {
-        await message.reply('𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻𝗮𝗹 ✨\n━━━━━━━━━━━━━\nAsk Me Your Question');
+        await message.reply('❄️𝘋𝘖𝘙𝘐𝘈𝘕𝘌 𝘉𝘖𝘛 ❄️\n━━━━━━━━━━━━━\nAsk Me Your Question');
         return;
       }
       
@@ -50,7 +50,7 @@ const UPoLPrefix = [
  
      const UPoL = response.data.answer; 
 
-      const upolres = `𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻𝗮𝗹 ✨\n━━━━━━━━━━━━━\n${UPoL}`;
+      const upolres = `❄️𝘋𝘖𝘙𝘐𝘈𝘕𝘌 𝘉𝘖𝘛❄️ ✨\n━━━━━━━━━━━━━\n${UPoL}`;
       
         message.reply(upolres);
   }
